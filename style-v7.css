@@ -142,14 +142,12 @@ p { margin: 0 0 1em; }
 .gallery img { width: 100%; height: 100%; object-fit: cover; border-radius: 2px; display: block; }
 .gallery__wide { grid-column: span 2; grid-row: span 2; }
 
-/* Testimonials */
-.testimonials { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-top: 32px; text-align: left; }
-.testimonial {
-  margin: 0; background: var(--bordo-panel); border-left: 2px solid var(--dourado);
-  border-radius: 0 4px 4px 0; padding: 24px 22px;
+/* Depoimento em vídeo */
+.video-testimonial { display: flex; justify-content: center; margin-top: 32px; }
+.video-testimonial__video {
+  width: 100%; max-width: 320px; aspect-ratio: 9/16; object-fit: cover; border-radius: 4px;
+  border: 1px solid var(--rule); background: var(--bordo-panel); box-shadow: 0 12px 30px rgba(0,0,0,0.3);
 }
-.testimonial p { font-family: var(--font-heading); font-style: italic; font-size: 14px; line-height: 1.8; color: var(--text); margin-bottom: 10px; }
-.testimonial cite { font-style: normal; font-size: 11px; letter-spacing: 0.5px; color: var(--dourado); }
 
 /* Anfitriã */
 .anfitria__grid { display: grid; grid-template-columns: 1.15fr 1fr; gap: 56px; align-items: center; }

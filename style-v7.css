@@ -34,8 +34,8 @@ p { margin: 0 0 1em; }
 .header { padding: 28px 0 0; }
 .header__inner { display: flex; }
 .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
-.logo__img { height: 70px; width: auto; object-fit: contain; display: block; }
-.logo__img--footer { height: 75px; margin: 0 auto 16px; }
+.logo__img { height: 90px; width: auto; object-fit: contain; display: block; }
+.logo__img--footer { height: 85px; margin: 0 auto 16px; }
 
 /* Eyebrow / tags */
 .eyebrow { display: block; font-size: 12px; letter-spacing: 0.5px; color: var(--dourado); margin-bottom: 18px; }
